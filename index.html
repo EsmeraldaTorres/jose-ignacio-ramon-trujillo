@@ -1,0 +1,447 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- boostrap -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- carousel2 -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+QLD+Beginner:wght@400;500;600&family=Kalam:wght@300;400;700&family=Manrope:wght@200;300;400;500;600&family=Montserrat:wght@400;517;737&family=Tangerine:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- AOS animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>JoséIgnacio</title>
+  </head>
+  <body class="avoiding-scroll w-100">
+    <!-- Sobre -->
+    <div
+      class="bg-dark-black d-flex justify-content-center align-items-center test-class"
+      id="parent-div"
+    >
+      <div id="hoja-principal" class="sobre">
+        <img
+          loading="lazy"
+          id="sobre-arriba"
+          src="./assets/img/sobrearriba.png"
+          class="animate__animated p-0 m-0 z-index-3"
+          alt="sobre-arriba"
+        />
+        <img
+          id="sobre-abajo"
+          loading="lazy"
+          class="p-0 m-0 z-index-2 animate__animated"
+          src="./assets/img/sobreabajo.png"
+          alt="sobre-abajo"
+        />
+        <button id="btn-open" class="btn-open" onclick="abrir()">
+          <img
+            id="logo"
+            loading="lazy"
+            src="./assets/img-j-ignacio/logo-jose-ignaci.png"
+            class="animate__animated animate__pulse animate__infinite"
+            alt="logo"
+          />
+          <p>Pulse para abrir</p>
+        </button>
+      </div>
+    </div>
+    <!-- Invitacion -->
+    <div id="invitacion" class="invitacion hide">
+      <section class="home d-flex justify-content-center align-items-center">
+        <div class="d-flex justify-content-center">
+          <img
+            loading="lazy"
+            class="name"
+            src="./assets/img-j-ignacio/JOSE-IGNACI.png"
+            alt="name"
+            id="name"
+          />
+        </div>
+        <div class="text-white text-center player-btn" id="play">
+          <i class="bi bi-pause-circle pause-btn player-icon"></i>
+          <i class="bi bi-play-circle play-btn player-icon d-none"></i>
+          <p>audio</p>
+        </div>
+        <div class="player-audio">
+          <audio
+            id="audio"
+            controls
+            autoplay
+            src="./assets/audio/Infraction_-_Life_Inside.mp3"
+          ></audio>
+        </div>
+      </section>
+      <section class="window-back">
+        <div class="window"></div>
+        <div
+          class="window-15"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+          data-aos-offset="200"
+        >
+          <div>
+            <img
+              src="./assets/img-j-ignacio/15-numero.png"
+              alt=""
+              class="numero-15"
+            />
+            <div
+              class="d-flex font-cormo justify-content-center pb-4 display-4"
+            >
+              <p>años</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="cuando p-4 d-flex justify-content-center align-items-center"
+      >
+        <div>
+          <div
+            class="d-flex justify-content-center"
+            data-aos="zoom-in-right"
+            data-aos-duration="2000"
+          >
+            <img
+              class="img-fecha animate-right text-center"
+              src="./assets/img-j-ignacio/fecha-jose-ignacio.png"
+              alt="fecha"
+            />
+          </div>
+          <div
+            class="animate-left"
+            data-aos="zoom-in-left"
+            data-aos-duration="2000"
+          >
+            <p class="text-center m-0 pt-4 lead text-white font-cormo">
+              Faltan
+            </p>
+            <p id="demo" class="pl-4 pr-4 font-cormo cuenta-regresiva"></p>
+          </div>
+        </div>
+      </section>
+      <section class="main-phrase text-white d-flex justify-content-center">
+        <div class="w-70">
+          <div class="d-flex justify-content-center pb-4rem">
+            <img
+              class="decoration"
+              src="./assets/img-j-ignacio/line-silver.png"
+              alt="decoration"
+            />
+          </div>
+          <p
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+            data-aos-offset="300"
+            class="display-4 font-paris text-center animate-text pb-3"
+          >
+            José Ignacio Ramón Trujillo
+          </p>
+          <p
+            class="pl-4 font-cormo pr-4 pb-4 mb-4 text-center animate-text font-tange display-6"
+            data-aos="fade-up"
+            data-aos-offset="250"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="1500"
+          >
+            Los simples momentos se convierten en extraordinarios si estamos
+            rodeados de gente especial. Por eso, en mi día, es infaltable tu
+            presencia, para convertir en inolvidable esta fiesta
+          </p>
+          <div class="d-flex justify-content-center pt-4rem">
+            <img
+              class="decoration"
+              src="./assets/img-j-ignacio/line-silver.png"
+              alt="decoration"
+            />
+          </div>
+        </div>
+      </section>
+      <section
+        class="recepcion-img animate-left d-flex justify-content-center align-items-center"
+      >
+        <p
+          class="text-white text-shadow font-paris titles w-80 display-3 text-center"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
+          ¡Vamos a celebrar!
+        </p>
+      </section>
+      <section
+        class="recepcion-information text-white d-flex align-items-center justify-content-center"
+      >
+        <div>
+          <h2
+            class="text-white font-cormo display-4 pr-4 pl-4 pb-5 mb-4 text-center"
+          >
+            Palapa Los Bambú
+          </h2>
+          <p class="lead font-kalam text-center mr-4 ml-4">
+            Rancheria zapotal 1ra sección Comalcalco, Tab.
+          </p>
+          <p class="hora font-cormo text-center">2:00pm</p>
+          <div class="d-flex justify-content-center align-items-center">
+            <img
+              loading="lazy"
+              class="img-ubicaciones"
+              src="./assets/img-j-ignacio/palapa.jpeg"
+              alt="iglesia"
+            />
+          </div>
+          <div class="d-flex align-items-center py-4 justify-content-center">
+            <a
+              href="https://www.google.com/maps?q=18.2955436,-93.2517194&z=17&hl=es"
+              ><button class="btn display-6 py-3 d-flex align-items-center">
+                <i class="bi bi-geo-alt"></i>
+                <span
+                  class="d-flex font-cormo align-items-center justify-content-center p-0 m-0"
+                >
+                  Ver mapa
+                </span>
+              </button></a
+            >
+          </div>
+          <div class="d-flex bg-trans-white justify-content-center">
+            <!-- <p class="text-center w-50 pb-0 pt-4">
+              Da click en el botón para obtener más indicaciones
+            </p> -->
+            <p class="text-center w-50 pb-0 pt-3">
+              <i class="bi bi-cup-straw"></i>
+              Trae tu bebida favorita, el servicio va por mi cuenta.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="pase">
+      </section> -->
+      <section class="window-back-2"></section>
+      <section class="familiares-information text-white">
+        <div>
+          <p
+            class="text-center mt-4 title2 font-paris"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
+            Agradezco a mis padres
+          </p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="row m-0">
+            <div class="col-12 mt-4">
+              <p
+                class="text-center display-6 font-cormo"
+                data-aos="flip-down"
+                data-aos-duration="500"
+              >
+                José Ignacio Ramón Pérez
+              </p>
+              <p
+                class="text-center display-6 font-cormo"
+                data-aos="flip-down"
+                data-aos-duration="500"
+              >
+                Rosa María Trujillo de la Cruz
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-around align-items-center">
+          <img
+            loading="lazy"
+            class="decoration"
+            src="./assets/img-j-ignacio/line-silver.png"
+            alt="linea"
+          />
+        </div>
+      </section>
+      <section class="pase">
+        <p class="m-0 display-6 font-kala">
+          ¡Que me acompañes es lo más importante!
+        </p>
+      </section>
+      <section class="pase pt-0">
+        <p class="m-0 display-6 font-kala">
+          Y si está en tu disposición realizar una muestra de cariño, estaré muy
+          agradecido
+        </p>
+      </section>
+      <section
+        class="window-regalos d-flex justify-content-center align-items-center"
+      >
+        <div class="w-80 h-80 d-flex justify-content-center">
+          <div
+            class="card-regalos p-4"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <p class="display-4 font-paris text-center pt-4">
+              Sugerencia de Regalos
+            </p>
+            <div class="d-flex justify-content-center">
+              <hr class="text-center" />
+            </div>
+            <div class="row d-flex justify-content-around align-items-center">
+              <div class="col-12">
+                <div class="pt-4 d-flex justify-content-center">
+                  <i class="bi bi-envelope icon-sobre"></i>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <p class="w-80 font-cormo text-center display-6 text-shadow">
+                    Sobre con dinero en efectivo
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-center p-4 bg-dark-blue">
+        <p
+          class="display-4 font-cormo"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          ¡Confirma tu asistencia!
+        </p>
+        <div class="d-flex justify-content-center align-items-center">
+          <p
+            class="w-50 py-4 font-cormo"
+            data-aos="fade-in"
+            data-aos-duration="3000"
+          >
+            <i class="bi bi-ticket font-icon"></i>Por favor, danos la respuesta
+            de tu asistencia al evento antes del 14 de Octubre
+          </p>
+        </div>
+        <div>
+          <a
+            href="https://wa.me/529331037145?text=Hola!%20Quiero%20confirmar%20mi%20asistencia%20al%20evento"
+            ><button class="btn p-3 display-6 font-kala">
+              <i class="bi bi-check"></i>Confirmar
+            </button></a
+          >
+        </div>
+        <div class="pt-2">
+          <a
+            href="https://wa.me/529331037145?text=Hola!%20Gracias%20por%20la%20invitacion%20pero%20no%20podré%20asistir%20al%20evento%20"
+            ><button class="btn p-1 btn-dark font-kala">
+              <i class="bi bi-x"></i>No podré asistir
+            </button></a
+          >
+        </div>
+      </section>
+      <section class="gracias d-flex justify-content-center align-items-center">
+        <div class="font-paris text-shadow display-2 text-white p-4">
+          <p
+            class="text-center text-shadow"
+            data-aos="fade-down"
+            data-aos-duration="2000"
+          >
+            ¡Gracias por acompañarme!
+          </p>
+        </div>
+      </section>
+      <section class="last-container">
+        <p class="text-center m-0 p-0">
+          Invitación hecha por
+          <a
+            target="_blank"
+            href="https://wa.me/524426147355?text=Hola%20Esmeralda!%20Me%20interesa%20contratar%20tu%20servicio"
+            class="marca"
+            >Esmeralda <i class="bi bi-whatsapp"></i
+          ></a>
+        </p>
+      </section>
+    </div>
+    <!-- Carousel 2 -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        nav: true,
+        slideBy: 1,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 1,
+          },
+        },
+      });
+    </script>
+    <!-- js -->
+    <script src="./javascript.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- boostrp -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
