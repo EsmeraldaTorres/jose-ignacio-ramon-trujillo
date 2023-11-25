@@ -187,11 +187,6 @@ button:focus {
   height: min-content;
   margin: 0;
   background-color: #bea6d3;
-  /* background-image: linear-gradient(
-      rgba(5, 7, 12, 0.044),
-      rgba(5, 7, 12, 0.023)
-    ),
-    url("./assets/img/lilabg4.png"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -410,7 +405,7 @@ hr {
       rgba(5, 7, 12, 0.527),
       rgba(5, 7, 12, 0.514)
     ),
-    url("./assets/img/pexels-rdne-stock-project-8674845.jpg");
+    url("./assets/img/pexels.jpeg");
 }
 
 .window {
@@ -611,7 +606,6 @@ button:hover {
 }
 /* nuestro-inicio */
 .nuestro-inicio {
-  /* background-color: rgb(197, 166, 119); */
   background-image: url("./assets/img/lilabg4.png");
 }
 
