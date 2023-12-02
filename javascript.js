@@ -36,7 +36,7 @@ playPause.addEventListener("click", () => {
 
 // a regresiva -------------------------------------------------------------------
 // Set the date we're counting down to
-var countDownDate = new Date("Dec 16, 2023 16:00").getTime();
+var countDownDate = new Date("Dec 16, 2023 19:30").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -55,7 +55,7 @@ var x = setInterval(function () {
   // Output the result in an element with id="demo"
   document.getElementById("demo").innerHTML = `
   <div class="d-flex justify-content-center">
-    <div class="cuenta p-4" >
+    <div class="cuenta txt-gray-white p-4" >
   <span>${days} días</span>
   <span class="ml-2 mr-2"> : </span>  
   <span>${hours} hrs</span> 
