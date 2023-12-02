@@ -5,18 +5,17 @@ function abrir() {
   document.getElementById("sobre-arriba").classList.add("animate__fadeOutUp");
   document.getElementById("sobre-abajo").classList.add("animate__slideOutDown");
   document.getElementById("logo").classList.remove("animate__infinite");
-  document.getElementById("pulse").classList.add("hide");
+
   document.getElementById("parent-div").classList.remove("test-class");
   document.getElementsByTagName("body")[0].classList.remove("avoiding-scroll");
-  audio.play();
 
   window.scrollTo(0, 0);
+  audio.play();
+
   setTimeout(function () {
     document.getElementById("logo").classList.add("hide");
     document.getElementById("hoja-principal").classList.add("hide");
     document.getElementById("invitacion").classList.remove("hide");
-    document.getElementById("name").classList.add("animate__zoomIn");
-    document.getElementById("xv").classList.add("animate__slideInUp");
   }, 2500);
 }
 
@@ -34,9 +33,9 @@ playPause.addEventListener("click", () => {
   }
 });
 
-// a regresiva -------------------------------------------------------------------
+// Cuenta regresiva -------------------------------------------------------------------
 // Set the date we're counting down to
-var countDownDate = new Date("Dec 16, 2023 19:30").getTime();
+var countDownDate = new Date("Dec 29, 2023 18:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -55,7 +54,7 @@ var x = setInterval(function () {
   // Output the result in an element with id="demo"
   document.getElementById("demo").innerHTML = `
   <div class="d-flex justify-content-center">
-    <div class="cuenta txt-gray-white p-4" >
+    <div class="cuenta p-4" >
   <span>${days} días</span>
   <span class="ml-2 mr-2"> : </span>  
   <span>${hours} hrs</span> 
@@ -72,3 +71,5 @@ var x = setInterval(function () {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+// carousel
