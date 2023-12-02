@@ -231,7 +231,7 @@ button:focus {
       rgba(5, 7, 12, 0.308),
       rgba(5, 7, 12, 0.335)
     ),
-    url("./assets/img/cristhel4.jpg");
+    url("./assets/img/cristhel4.jpeg");
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
@@ -406,13 +406,13 @@ hr {
   -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("./assets/img/cristhel2.jpg");
+  background-image: url("./assets/img/cristhel2.jpeg");
 }
 .window-back3 {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url("./assets/img/cristhel1.jpg");
+  background-image: url("./assets/img/cristhel1.jpeg");
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
@@ -446,11 +446,13 @@ hr {
   -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: left;
-  background-image: url("./assets/img/bg7\ \(1\).png");
+  background-image: url("./assets/img/bg7.png");
 }
 .card-hotel {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   flex-direction: column;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -549,7 +551,7 @@ hr {
       rgba(5, 7, 12, 0.274),
       rgba(5, 7, 12, 0.171)
     ),
-    url("./assets/img/cristhel4.jpg");
+    url("./assets/img/cristhel4.jpeg");
   /* url("./assets/img/fiesta.png"); */
 
   background-size: cover;
@@ -908,7 +910,7 @@ a:hover {
       rgba(5, 7, 12, 0.393),
       rgba(5, 7, 12, 0.462)
     ),
-    url("./assets/img/cristhel3.jpg");
+    url("./assets/img/cristhel3.jpeg");
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
