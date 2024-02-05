@@ -124,6 +124,9 @@ button {
 button:focus {
   outline: none;
 }
+a {
+  color: black !important;
+}
 .btn-light {
   color: white;
   background-color: #1e433c;
@@ -133,6 +136,7 @@ button:focus {
   color: #dddddd !important;
 }
 .btn-open {
+  width: 100%;
   position: absolute;
   z-index: 4;
   border: none;
