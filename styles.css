@@ -747,7 +747,7 @@ button:hover {
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
   -o-background-size: cover; /* Para Opera */
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -929,7 +929,7 @@ a:hover {
       rgba(5, 7, 12, 0.393),
       rgba(5, 7, 12, 0.462)
     ),
-    url("./assets/img/Quinceañera-Sesión-casual-formal-fotografía-chapala-2002.jpg");
+    url("./assets/img/ultima-foto.jpg");
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
