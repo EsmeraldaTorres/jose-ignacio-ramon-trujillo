@@ -231,7 +231,7 @@ button:focus {
       rgba(5, 7, 12, 0.308),
       rgba(5, 7, 12, 0.335)
     ),
-    url("./assets/img/cristhel4.jpeg");
+    url("./assets/img/il_fullxfull.3184757468_cs49.jpg");
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
@@ -393,6 +393,25 @@ hr {
   background-attachment: fixed;
   background-position: right;
 }
+.window-misa {
+  color: white;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.527),
+      rgba(5, 7, 12, 0.514)
+    ),
+    url("./assets/img/pexels-anuja-tilj-8086724.jpg");
+}
 .window-153 {
   color: white;
   height: 100vh;
@@ -406,13 +425,13 @@ hr {
   -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("./assets/img/cristhel2.jpeg");
+  background-image: url("./assets/img/rancho-la-estacio__n-sesio__n-quinces-ximena_0034.jpg");
 }
 .window-back3 {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url("./assets/img/cristhel1.jpeg");
+  background-image: url("./assets/img/Book\ Tattoo.jpeg");
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
@@ -551,7 +570,7 @@ hr {
       rgba(5, 7, 12, 0.274),
       rgba(5, 7, 12, 0.171)
     ),
-    url("./assets/img/cristhel4.jpeg");
+    url("./assets/img/xv-brianni-0244.jpeg");
   /* url("./assets/img/fiesta.png"); */
 
   background-size: cover;
@@ -910,13 +929,13 @@ a:hover {
       rgba(5, 7, 12, 0.393),
       rgba(5, 7, 12, 0.462)
     ),
-    url("./assets/img/cristhel3.jpeg");
+    url("./assets/img/Quinceañera-Sesión-casual-formal-fotografía-chapala-2002.jpg");
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
   -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
 }
 .marca {
   color: rgb(244 244 248 / 74%);
