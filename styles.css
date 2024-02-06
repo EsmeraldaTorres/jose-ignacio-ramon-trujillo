@@ -127,9 +127,7 @@ button {
 button:focus {
   outline: none;
 }
-a {
-  color: black !important;
-}
+
 .btn-light {
   color: white;
   background-color: #1e433c;
@@ -946,7 +944,7 @@ a:hover {
   background-position: right;
 }
 .marca {
-  color: blanchedalmond;
+  color: rgb(246, 244, 240);
 }
 @media (min-width: 470px) {
   .name {
