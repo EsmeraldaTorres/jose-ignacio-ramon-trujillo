@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+.txt-black {
+  color: black !important;
+}
 .font-edu {
   font-family: "Edu QLD Beginner", cursive;
 }
@@ -481,6 +484,7 @@ hr {
   align-items: center;
 }
 .gallery {
+  height: max-content;
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
