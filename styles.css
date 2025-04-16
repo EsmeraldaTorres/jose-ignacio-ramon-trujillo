@@ -31,6 +31,9 @@
   height: 100%;
   overflow: hidden;
 }
+.overflow-hidden{
+  overflow: hidden;
+}
 .display-3 {
   font-size: 3.5rem;
 }
@@ -469,8 +472,8 @@ hr {
   -moz-background-size: cover; /* Para Firefox */
   -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
-  background-position: left;
-  background-image: url("./assets/img/bg7.png");
+  background-position: center;
+  background-image: url("./assets/img/Sábado\ \(4\).png");
 }
 .card-hotel {
   padding-top: 3rem;
@@ -569,22 +572,35 @@ hr {
 }
 /* recepcion */
 .recepcion-img {
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       rgba(5, 7, 12, 0.274),
       rgba(5, 7, 12, 0.171)
     ),
-    url("./assets/img/xv-brianni-0244.jpeg");
+    url("./assets/img/xv-brianni-0244.jpeg"); */
   /* url("./assets/img/fiesta.png"); */
-
+background-color:#1e433c;
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
   -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: bottom;
+}
+.recepcion-img2{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(
+        rgba(5, 7, 12, 0.274),
+        rgba(5, 7, 12, 0.171)
+      ),
+      url("./assets/img/hola.jpg");
+
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 .recepcion-information {
   padding-top: 5rem;
@@ -641,12 +657,12 @@ h3 {
 .h-25 {
   height: 25%;
 }
-.card {
+/* .card {
   background-color: rgba(137, 43, 226, 0);
   width: 100vw;
   height: 50vh;
   border: none;
-}
+} */
 .card-img {
   height: 150px;
   width: 160px;
@@ -678,6 +694,8 @@ h3 {
   height: 200px !important;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    object-fit: cover;
+
 }
 .img-hoteles {
   border-radius: 100%;
@@ -891,7 +909,7 @@ a:hover {
 }
 .card {
   width: 80%;
-  padding: 2rem;
+  /* padding: 2rem; */
   display: flex;
   align-items: center;
   justify-content: center;
